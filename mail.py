@@ -76,7 +76,7 @@ elif choise == "2":
 
     for i in range(1, am+1):
         server.sendmail("alvi88010@gmail.com", to_mail, msg)
-        slow_header(f"\n\t\033[1;32m{i} Email Sent Successfully ✅\n", 0.03)
+        slow_header(i,"\n\t\033[1;32m Email Sent Successfully ✅\n", 0.03)
 
 elif choise == "3":
     print("\n\033[1;31mExiting... Goodbye!\033[0m")
